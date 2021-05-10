@@ -32,15 +32,11 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView style={styles.backgroundStyle}>
-      <StatusBar barStyle={} />
+      <StatusBar />
       <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
+        contentInsetAdjustmentBehavior="automatic">
         <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
+        <View style={styles.viewContainer} >
           
         </View>
       </ScrollView>
@@ -65,6 +61,12 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
+  backgroundStyle: {
+    backgroundColor: "#FAFAFA"
+  },
+  viewContainer: {
+    backgroundColor: "#000"
+  }
 });
 
 export default App;
