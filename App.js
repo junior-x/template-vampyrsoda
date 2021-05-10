@@ -35,9 +35,8 @@ const App: () => Node = () => {
       <StatusBar />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
-        <Header />
         <View style={styles.viewContainer} >
-          
+          <Text style={styles.textHeader}>vampyrsoda template</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -62,11 +61,15 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   backgroundStyle: {
-    backgroundColor: "#FAFAFA"
+    backgroundColor: "#FAFAFA",
   },
   viewContainer: {
-    backgroundColor: "#000"
-  }
+    backgroundColor: "#000",
+    width:  "",
+  },
+  textHeader: {
+    color: "#FAFAFA",
+  },
 });
 
 export default App;
