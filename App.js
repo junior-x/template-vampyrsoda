@@ -8,6 +8,8 @@
 
 import React from 'react';
 import type {Node} from 'react';
+import styles from "./App.scss";
+
 import {
   SafeAreaView,
   ScrollView,
@@ -41,6 +43,18 @@ const App: () => Node = () => {
       </ScrollView>
     </SafeAreaView>
   );
+};
+
+var styles = {
+  myClass: {
+    color: "blue"
+  },
+  myOtherClass: {
+    color: "red"
+  },
+  "my-dashed-class": {
+    color: "green"
+  }
 };
 
 const styles = StyleSheet.create({
