@@ -1,4 +1,4 @@
-# template-vampyrsoda
+# 🥤 template-vampyrsoda
 Template for React-Native app.
 
     To create new REACT NATIVE App with custom template just run the follow line:
