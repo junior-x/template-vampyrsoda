@@ -1,0 +1,38 @@
+%blue {
+    color: blue;
+  }
+  .myClass {
+    @extend %blue;
+  }
+  .myOtherClass {
+    color: red;
+  }
+  .my-dashed-class {
+    color: green;
+  }
+
+  %red {
+    color: blue;
+  }
+  .myClass {
+    @extend %red;
+  }
+  .myOtherClass {
+    color: red;
+  }
+  .my-dashed-class {
+    color: green;
+  }
+
+  %yellow {
+    color: blue;
+  }
+  .myClass {
+    @extend %yellow;
+  }
+  .myOtherClass {
+    color: red;
+  }
+  .my-dashed-class {
+    color: green;
+  }

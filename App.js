@@ -64,12 +64,17 @@ const styles = StyleSheet.create({
     backgroundColor: "#FAFAFA",
   },
   viewContainer: {
-    backgroundColor: "#000",
+    backgroundColor: "#251d2b",
     width:  "",
   },
   textHeader: {
     color: "#FAFAFA",
   },
+  circle: {
+    width: 44,
+    height: 44,
+    borderRadius: 44/2
+ }
 });
 
 export default App;
