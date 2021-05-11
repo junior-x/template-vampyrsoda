@@ -8,7 +8,7 @@
 
 import React from 'react';
 import type {Node} from 'react';
-import styles from "./App.scss";
+///import styles from "./App.scss";
 
 import {
   SafeAreaView,
@@ -20,41 +20,17 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-
 const App: () => Node = () => {
-  
-
   return (
     <SafeAreaView style={styles.backgroundStyle}>
       <StatusBar />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic">
-        <View style={styles.viewContainer} >
+      <ScrollView contentInsetAdjustmentBehavior="automatic">
+        <View style={styles.viewContainer}>
           <Text style={styles.textHeader}>vampyrsoda template</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
   );
-};
-
-var styles = {
-  myClass: {
-    color: "blue"
-  },
-  myOtherClass: {
-    color: "red"
-  },
-  "my-dashed-class": {
-    color: "green"
-  }
 };
 
 const styles = StyleSheet.create({
@@ -75,20 +51,20 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   backgroundStyle: {
-    backgroundColor: "#FAFAFA",
+    backgroundColor: '#FAFAFA',
   },
   viewContainer: {
-    backgroundColor: "#251d2b",
-    width:  "",
+    backgroundColor: '#251d2b',
+    width: '',
   },
   textHeader: {
-    color: "#FAFAFA",
+    color: '#FAFAFA',
   },
   circle: {
     width: 44,
     height: 44,
-    borderRadius: 44/2
- }
+    borderRadius: 44 / 2,
+  },
 });
 
 export default App;
