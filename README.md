@@ -19,7 +19,7 @@ Template for React-Native app.
 
 ![Image of Icon](/src/assets/layout/flash.png)
 
-![Image of Phone](/src/assets/image/screen/screnPhone-v0.PNG)
+![Image of Phone](/src/assets/image/screen/screenPhone-v0.PNG)
 
 ![Image of Design](/src/assets/image/screen/screen-v0.PNG)
 
