@@ -21,4 +21,5 @@ Template for React-Native app.
 
 ![Image of Phone](/src/assets/image/screen/screnPhone-v0.PNG)
 
-![Image of Design](/src/assets/image/screen/scren-v0.PNG)
+![Image of Design](/src/assets/image/screen/screen-v0.PNG)
+
