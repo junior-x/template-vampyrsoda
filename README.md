@@ -16,3 +16,7 @@ Template for React-Native app.
 `npx react-native run-android`
 
 ---
+
+![Image of Icon](/src/assets/layout/flash.png)
+
+![Image of Deisgn](/src)
